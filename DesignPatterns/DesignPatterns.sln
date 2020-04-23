@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullObjectPattern", "NullOb
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{F291D80C-403E-479E-BA96-16228FB22371}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{4A410C79-CCEB-49E9-AB27-B04DA655AC10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{4A410C79-CCEB-49E9-AB27-B04DA655AC10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{19D352F5-DADD-4D1D-9273-8888A81106BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadePattern", "FacadePattern\FacadePattern.csproj", "{771EE880-2C0B-449D-953D-8B4F38D9E59A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,10 @@ Global
 		{4A410C79-CCEB-49E9-AB27-B04DA655AC10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A410C79-CCEB-49E9-AB27-B04DA655AC10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A410C79-CCEB-49E9-AB27-B04DA655AC10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771EE880-2C0B-449D-953D-8B4F38D9E59A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771EE880-2C0B-449D-953D-8B4F38D9E59A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771EE880-2C0B-449D-953D-8B4F38D9E59A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771EE880-2C0B-449D-953D-8B4F38D9E59A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{380F12BF-3BFC-4785-91E5-817ECDFC46A6} = {F291D80C-403E-479E-BA96-16228FB22371}
 		{4A410C79-CCEB-49E9-AB27-B04DA655AC10} = {F291D80C-403E-479E-BA96-16228FB22371}
+		{771EE880-2C0B-449D-953D-8B4F38D9E59A} = {19D352F5-DADD-4D1D-9273-8888A81106BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5D51745-E3DE-43A6-858D-61D2A7A03C01}
